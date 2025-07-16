@@ -1,0 +1,152 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  /* font-size: 62.5%; */
+  font-size: 100%;
+}
+
+/*------ colors ------*/
+:root {
+  /* Grey:*/
+  --slate: #495057;
+  --graphite: #212522;
+
+  --white: white;
+  --black: black;
+
+  /* category */
+  --blue: #0984e3;
+  --light-blue: #74b9ff;
+  --purple: #6c5ce7;
+  --red: #d63031;
+  --green: #00b894;
+  --green2: #6ab04c;
+  --pink: #e84393;
+  --orange: #e17055;
+  --goray: #636e72;
+
+  /* neumorphisim */
+  --main: #e4e4e4;
+}
+
+/*------ fonts ------*/
+:root {
+  /*font size*/
+  /* --text-sm: 0.75rem; */
+  /* --text-base: 1rem; */
+  /* --text-Paragraph: 1.333rem; */
+  /* --text-h5: 1.777rem; */
+  /* --text-h4: 2.369rem; */
+  /* --text-h3: 3.157rem; */
+  /* --text-h2: 4.209rem; */
+  /* --text-h1: 5.61rem; */
+
+  --text-sm: 0.833rem;
+  --text-base: 1rem;
+  --text-Paragraph: 1rem;
+  --text-h6: 1.2rem;
+  --text-h5: 1.44rem;
+  --text-h4: 1.728rem;
+  --text-h3: 2.074rem;
+  --text-h2: 2.488rem;
+  --text-h1: 2.986rem;
+
+  /*font weights*/
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  /*line hights*/
+  --line-hight-tight: 1.2;
+  --line-hight-normal: 1.5;
+
+  --letter-spacing-tight: -2;
+
+  --font-family: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-hight-normal);
+  background-color: var(--main);
+  color: var(--slate);
+}
+
+/*------ items ------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: var(--letter-spacing-tight);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-hight-tight);
+  color: var(--graphite);
+}
+
+h1 {
+  font-size: var(--text-h1);
+}
+
+h2 {
+  font-size: var(--text-h2);
+}
+
+h3 {
+  font-size: var(--text-h3);
+}
+
+h4 {
+  font-size: var(--text-h4);
+}
+
+h5 {
+  font-size: var(--text-h5);
+}
+
+h6 {
+  font-size: var(--text-h6);
+}
+
+p,
+a,
+small {
+  line-height: var(--line-hight-normal);
+}
+
+p {
+  font-size: var(--text-Paragraph);
+}
+
+/*anchor*/
+a {
+  text-decoration: none;
+  font-size: var(--text-base);
+  display: inline-block;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--graphite);
+}
+
+small {
+  font-size: var(--text-sm);
+}
+
+span {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}

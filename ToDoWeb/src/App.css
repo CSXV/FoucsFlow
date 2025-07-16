@@ -1,0 +1,253 @@
+/* components */
+.site-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  flex: 1;
+
+  max-width: 1200px;
+  /* margin: 2rem; */
+}
+
+.main-container,
+footer {
+  padding: 1rem;
+}
+
+.main-container {
+  height: 100%;
+  min-height: 100%;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+
+  overflow: auto;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.notes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex: 1 1 auto;
+}
+
+.right-note-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.note-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding-left: 1rem;
+}
+
+/* neumorphisim */
+/* ---------------------------------------------------- */
+.card-home-hero,
+.card-container,
+.input-container,
+.card-header,
+.card-button,
+.card-add-button,
+.card-notes,
+.card-login,
+.card-add,
+.card-right,
+.card-info,
+.card-footer,
+.card-home-cta,
+.card-feature,
+.card {
+  border-radius: 10px;
+
+  background-color: var(--main);
+  box-shadow:
+    10px 10px 20px #c4c4c4,
+    -10px -10px 20px #ffffff;
+
+  /* box-shadow: */
+  /*   7px 7px 15px rgba(55, 84, 170, 0.15), */
+  /*   -7px -7px 20px rgba(255, 255, 255, 1), */
+  /*   inset 0px 0px 4px rgba(255, 255, 255, 0.2), */
+  /*   inset 7px 7px 15px rgba(55, 84, 170, 0), */
+  /*   inset -7px -7px 20px rgba(255, 255, 255, 0), */
+  /*   0px 0px 4px rgba(255, 255, 255, 0) !important; */
+
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: space-around; */
+
+  padding: 4px;
+  margin: 1rem;
+}
+
+.card-feature {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card-home-cta {
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card-home-hero {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.card-footer {
+  padding: 1.5rem;
+}
+
+.card-right {
+  padding-left: 1.5rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-info {
+  flex: 1 1 auto;
+  margin-top: 10rem;
+  padding: 4rem;
+
+  gap: 4rem;
+
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+
+  max-width: 500px;
+  max-height: 150px;
+}
+
+.card-login {
+  /* padding: 1rem; */
+  /* margin: 3rem; */
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-add-button {
+  display: block;
+}
+
+.card-add-button,
+.card-container {
+  margin-bottom: 1.5rem;
+}
+
+.card-notes,
+.card-add,
+.card-header {
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  gap: 2rem;
+}
+
+.card-notes {
+  /* padding: 2rem 1rem; */
+  padding-left: 2rem;
+}
+
+.card-add {
+  max-width: 900px;
+  gap: 0rem;
+  padding-left: 2rem;
+}
+
+/* .card-button, */
+.card-container {
+  /* justify-content: space-around; */
+  align-items: center;
+  align-items: start;
+}
+
+.card-container {
+  flex-direction: column;
+}
+
+/* .card-button { */
+/*   max-width: 260px; */
+/*   align-items: center; */
+/* } */
+
+.input-container {
+  flex-direction: column;
+  min-width: 95%;
+}
+
+.button {
+  background-color: var(--main);
+  /* color: #333; */
+
+  border: none;
+  border-radius: 10px;
+
+  box-shadow:
+    inset 5px 5px 5px #c4c4c4,
+    inset -5px -5px 5px #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 5px;
+
+  font-family: var(--font-family);
+  font-weight: bold;
+  /* text-transform: uppercase; */
+
+  margin: 3px;
+  padding: 10px;
+  /* min-width: 100px; */
+}
+
+.button:hover {
+  box-shadow: none;
+}

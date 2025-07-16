@@ -1,0 +1,208 @@
+.card .Personal {
+  color: var(--blue);
+}
+
+.card .Personal:hover {
+  background-color: var(--blue);
+  color: var(--main);
+}
+
+.card .PersonalClick {
+  background-color: var(--blue);
+  color: var(--main);
+}
+
+.card .Personal {
+  fill: var(--blue);
+}
+
+.card .Personal:hover {
+  fill: var(--main);
+}
+
+.card .Work {
+  color: var(--purple);
+}
+
+.card .Work:hover {
+  background-color: var(--purple);
+  color: var(--main);
+}
+
+.card .WorkClick {
+  background-color: var(--purple);
+  color: var(--main);
+}
+
+.card .Work {
+  fill: var(--purple);
+}
+
+.card .Work:hover {
+  fill: var(--main);
+}
+
+.card .Misc {
+  color: var(--light-blue);
+}
+
+.card .Misc:hover {
+  background-color: var(--light-blue);
+  color: var(--main);
+}
+
+.card .MiscClick {
+  background-color: var(--light-blue);
+  color: var(--main);
+}
+
+.card .Misc {
+  fill: var(--light-blue);
+}
+
+.card .Misc:hover {
+  fill: var(--main);
+}
+
+.card .School {
+  color: var(--pink);
+}
+
+.card .School:hover {
+  background-color: var(--pink);
+  color: var(--main);
+}
+
+.card .SchoolClick {
+  background-color: var(--pink);
+  color: var(--main);
+}
+
+.card .School {
+  fill: var(--pink);
+}
+
+.card .School:hover {
+  fill: var(--main);
+}
+
+.card .Tasks {
+  color: var(--orange);
+}
+
+.card .Tasks:hover {
+  background-color: var(--orange);
+  color: var(--main);
+}
+
+.card .TasksClick {
+  background-color: var(--orange);
+  color: var(--main);
+}
+
+.card .Tasks {
+  fill: var(--orange);
+}
+
+.card .Tasks:hover {
+  fill: var(--main);
+}
+
+.card .Ideas {
+  color: var(--goray);
+}
+
+.card .Ideas:hover {
+  background-color: var(--goray);
+  color: var(--main);
+}
+
+.card .IdeasClick {
+  background-color: var(--goray);
+  color: var(--main);
+}
+
+.card .Ideas {
+  fill: var(--goray);
+}
+
+.card .Ideas:hover {
+  fill: var(--main);
+}
+
+.card .Goals {
+  color: var(--green);
+}
+
+.card .Goals:hover {
+  background-color: var(--green);
+  color: var(--main);
+}
+
+.card .GoalsClick {
+  background-color: var(--green);
+  color: var(--main);
+}
+
+.card .GoalsClick {
+  fill: var(--main);
+}
+
+.card .Goals {
+  fill: var(--green);
+}
+
+.card .Goals:hover {
+  fill: var(--main);
+}
+
+.Cancel {
+  color: var(--red);
+}
+
+.Cancel:hover {
+  background-color: var(--red);
+  color: var(--main);
+}
+
+.Cancel {
+  fill: var(--red);
+}
+
+.Cancel:hover {
+  fill: var(--main);
+}
+
+.Add {
+  color: var(--black);
+}
+
+.Add:hover {
+  background-color: var(--black);
+  color: var(--main);
+}
+
+.Add {
+  fill: var(--black);
+}
+
+.Add:hover {
+  fill: var(--main);
+}
+
+.Done {
+  color: var(--green2);
+}
+
+.Done:hover {
+  background-color: var(--green2);
+  color: var(--main);
+}
+
+.Done {
+  fill: var(--green2);
+}
+
+.Done:hover {
+  fill: var(--main);
+}

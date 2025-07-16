@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "27Dzmt4RoN1ujbU9O2Og67ad6KeszDboT9WGYH7jrVo2/4B/4EDr1ZezUhU63ow7+A9p5cvBYh+AycFTjstpEg==",
+  "success": true,
+  "projectFilePath": "/mnt/MalikDisc/MALIK_DISC/MX/Coding/React/Projects/ToDoApp/ToDoAPI/BusinessLayer/BusinessLayer.csproj",
+  "expectedPackageFiles": [
+    "/home/user/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.2/microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "/home/user/.nuget/packages/npgsql/9.0.3/npgsql.9.0.3.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
