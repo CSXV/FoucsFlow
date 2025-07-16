@@ -3,7 +3,6 @@ A full-stack, pixel-perfect To-Do and Notes web app designed with **Neumorphism 
 
 ![user notes page](pics/UserNotesPage.png)
 
----
 ## 🚀 Features
 ### ✅ Core App Features
 - Create, update, delete, and **archive notes**
@@ -12,7 +11,6 @@ A full-stack, pixel-perfect To-Do and Notes web app designed with **Neumorphism 
 - Responsive Neumorphic UI with **pixel-perfect styling**
 - Built with modern technologies and optimized for performance
 
----
 ## 🎨 UI/UX & Design
 - Neumorphism design for a modern, tactile interface
 - Pixel-perfect spacing, typography, and color palette
@@ -20,7 +18,6 @@ A full-stack, pixel-perfect To-Do and Notes web app designed with **Neumorphism 
 - Fully responsive and mobile-friendly
 - Google Material Icons for category visualization (icons like work, fitness_center, home)
 
----
 ## 🧑‍💻 Tech Stack
 
 | Layer      | Tech                                                     |
@@ -31,7 +28,6 @@ A full-stack, pixel-perfect To-Do and Notes web app designed with **Neumorphism 
 | Styling    | Custom CSS, Neumorphism design system                    |
 | Tools      | NPM, Vite, REST API                                      |
 
----
 ## 🗃️ Database Schema (Simplified)
 ### `Users` Table
 
@@ -71,7 +67,6 @@ A full-stack, pixel-perfect To-Do and Notes web app designed with **Neumorphism 
 | name          | `varchar(100)` | Category name              |
 | iconname      | `varchar`      | Google Material Icon name  |
 
----
 ## 🧱 3-Tier Architecture (.NET Core)
 ### 1. **Presentation Layer**
 - Handles HTTP requests and responses
@@ -86,7 +81,6 @@ A full-stack, pixel-perfect To-Do and Notes web app designed with **Neumorphism 
 - Connects to PostgreSQL using connection pooling
 - Handles transactions and error recovery
 
----
 ## 🔧 Setup Instructions
 ### Prerequisites
 - Node.js + NPM
@@ -95,18 +89,16 @@ A full-stack, pixel-perfect To-Do and Notes web app designed with **Neumorphism 
 
 ### 📦 Frontend (React + Vite)
 ```bash
-cd toDoWep
+cd toDoWeb
 npm install
 npm run dev
 ```
 
 ### ⚙️ Backend (.NET Core API)
-Configure appsettings.json:
+Configure DataAccessLayer `_connectionString` string:
 
 ```json
-"ConnectionStrings": {
-  "DefaultConnection": "Host=localhost;Database=TodoDb;Username=postgres;Password=yourpassword"
-}
+"Host=localhost;Database=TodoDb;Username=postgres;Password=yourpassword"
 ```
 
 Run the server:
@@ -116,33 +108,31 @@ dotnet restore
 dotnet run
 ```
 
----
 ## 🌐 REST API Endpoints
 ### 🔐 Auth & User
-| Method | Endpoint               | Description         |
-| ------ | ---------------------- | ------------------- |
-| GET   | /api/Users/{id}         | get a user by ID    |
-| POST   | /api/Users/Add         | Register a new user |
-| POST   | /api/Users/login       | Authenticate a user |
-| PUT    | /api/Users/Update/{id} | Update user info    |
-| DELETE | /api/Users/Delete/{id} | Delete user account |
+| Method | Endpoint                 | Description         |
+| ------ | ------------------------ | ------------------- |
+| GET    | `/api/Users/{id}`        | get a user by ID    |
+| POST   | `/api/Users/Add`         | Register a new user |
+| POST   | `/api/Users/login`       | Authenticate a user |
+| PUT    | `/api/Users/Update/{id}` | Update user info    |
+| DELETE | `/api/Users/Delete/{id}` | Delete user account |
 
 ### 📝 Notes
-| Method | Endpoint                 | Description                 |
-| ------ | ------------------------ | --------------------------- |
-| GET    | /api/Notes/AlllUser/{id} | Get all notes for a user    |
-| GET    | /api/Notes/All           | Get all notes (for testing) |
-| GET    | /api/Notes/{id}          | Get a note by ID            |
-| POST   | /api/Notes/Add           | Create a new note           |
-| PUT    | /api/Notes/Update/{id}   | Update an existing note     |
-| DELETE | /api/Notes/Delete/{id}   | Delete a note               |
+| Method | Endpoint                   | Description                 |
+| ------ | -------------------------- | --------------------------- |
+| GET    | `/api/Notes/AlllUser/{id}` | Get all notes for a user    |
+| GET    | `/api/Notes/All`           | Get all notes (for testing) |
+| GET    | `/api/Notes/{id}`          | Get a note by ID            |
+| POST   | `/api/Notes/Add`           | Create a new note           |
+| PUT    | `/api/Notes/Update/{id}`   | Update an existing note     |
+| DELETE | `/api/Notes/Delete/{id}`   | Delete a note               |
 
 ### 🗂️ Categories
 | Method | Endpoint               | Description         |
 | ------ | ---------------------- | ------------------- |
 | GET    | `/api/categories/All`  | List all categories |
 
----
 ## 🧪 Testing & Development
 - Fast dev server with Vite for hot module replacement
 - Clean component structure for maintainability
@@ -151,12 +141,8 @@ dotnet run
 ## 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
 
----
 ## 📃 License
 This project is licensed under the MIT License.
 
----
 ## ✉️ Contact
 Made with 💙 by CSXV.
-
----
