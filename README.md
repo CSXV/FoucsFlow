@@ -1,7 +1,7 @@
 # FoucsFlow
 A full-stack, pixel-perfect To-Do and Notes web app designed with **Neumorphism UI** and built for **ease of use**. The app supports user authentication, categorized notes, and an intuitive task management system.
 
-![user notes page](pics/userNotesPage.png)
+![user notes page](pics/UserNotesPage.png)
 
 ---
 ## 🚀 Features
