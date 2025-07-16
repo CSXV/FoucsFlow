@@ -3,6 +3,8 @@ A full-stack, pixel-perfect To-Do and Notes web app designed with **Neumorphism 
 
 ![user notes page](pics/UserNotesPage.png)
 
+more screenshots in pics folder.
+
 ## 🚀 Features
 ### ✅ Core App Features
 - Create, update, delete, and **archive notes**
@@ -11,14 +13,14 @@ A full-stack, pixel-perfect To-Do and Notes web app designed with **Neumorphism 
 - Responsive Neumorphic UI with **pixel-perfect styling**
 - Built with modern technologies and optimized for performance
 
-## 🎨 UI/UX & Design
+### 🎨 UI/UX & Design
 - Neumorphism design for a modern, tactile interface
 - Pixel-perfect spacing, typography, and color palette
 - Focus on minimalism and ease of navigation
 - Fully responsive and mobile-friendly
 - Google Material Icons for category visualization (icons like work, fitness_center, home)
 
-## 🧑‍💻 Tech Stack
+### 🧑‍💻 Tech Stack
 
 | Layer      | Tech                                                     |
 |------------|----------------------------------------------------------|
