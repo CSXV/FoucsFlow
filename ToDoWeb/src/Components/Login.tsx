@@ -28,7 +28,11 @@ export async function action(obj: any) {
 
     return redirect(url);
   } catch (error) {
-    return error.message;
+    // return (error as any).message;
+
+    if (error instanceof Error) {
+      return error.message;
+    }
   }
 }
 

@@ -150,12 +150,15 @@ function Account() {
             <button type="submit" className="button Add">
               Update
             </button>
-
           </Form>
         )}
 
         <div className="card-login">
-          <button onClick={handleAccountDeletion} type="button" className="button Cancel">
+          <button
+            onClick={handleAccountDeletion}
+            type="button"
+            className="button Cancel"
+          >
             Delete account
           </button>
         </div>

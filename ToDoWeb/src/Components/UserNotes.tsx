@@ -29,18 +29,18 @@ function UserNotes() {
   function renderAllNotesElements(notes: Note[]) {
     const displayFilter = typeFilter
       ? notes.filter(
-        (n: Note) =>
-          n.state.toLowerCase() !== "done" &&
-          n.state.toLowerCase() !== "deleted" &&
-          n.state.toLowerCase() !== "archived" &&
-          n.categoryID === typeFilter,
-      )
+          (n: Note) =>
+            n.state.toLowerCase() !== "done" &&
+            n.state.toLowerCase() !== "deleted" &&
+            n.state.toLowerCase() !== "archived" &&
+            n.categoryID === typeFilter,
+        )
       : notes.filter(
-        (n: Note) =>
-          n.state.toLowerCase() !== "done" &&
-          n.state.toLowerCase() !== "deleted" &&
-          n.state.toLowerCase() !== "archived",
-      );
+          (n: Note) =>
+            n.state.toLowerCase() !== "done" &&
+            n.state.toLowerCase() !== "deleted" &&
+            n.state.toLowerCase() !== "archived",
+        );
 
     const allNotesElements = displayFilter.map((n: Note) => (
       <NoteCard key={n.id} note={n} />
