@@ -92,7 +92,11 @@ namespace DataAccessLayer
 
             using (var dataSource = NpgsqlDataSource.Create(_connectionString))
             {
-                using (var cmd = dataSource.CreateCommand("SELECT * FROM notes WHERE userid=@id;"))
+                using (
+                    var cmd = dataSource.CreateCommand(
+                        "SELECT * FROM notes WHERE userid=@id AND state='to do';"
+                    )
+                )
                 {
                     cmd.Parameters.AddWithValue("@id", id);
 
